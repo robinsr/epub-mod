@@ -1,0 +1,22 @@
+{
+  "imports": {
+    "~/": "./src/",
+    "util/": "./src/util/",
+    "html-format": "https://cdn.jsdelivr.net/npm/html-format@1.1.2/index.js",
+    "std/": "https://deno.land/std@0.204.0/",
+    "deno-dom/": "https://deno.land/x/deno_dom@v0.1.41/",
+    "nanoid/": "https://deno.land/x/nanoid@v3.0.0/",
+    "optional": "https://deno.land/x/optionals@v2.0.2/mod.ts",
+    "ramda": "https://deno.land/x/ramda@v0.27.2/mod.ts",
+    "jsdom": "https://esm.sh/jsdom",
+    "css-tree/": "https://esm.sh/v133/*css-tree@2.3.1/",
+    "specificity": "https://esm.sh/v133/*specificity@1.0.0",
+    "diff": "https://ga.jspm.io/npm:diff@5.1.0/lib/index.mjs"
+  },
+  "scopes": {
+    "https://esm.sh/v133/": {
+      "mdn-data": "https://esm.sh/v133/mdn-data@2.0.30",
+      "source-map-js": "https://esm.sh/v133/source-map-js@1.0.2"
+    }
+  }
+}
